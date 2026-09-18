@@ -8,10 +8,12 @@ OSCP sit-by: 2028-01-31
 
 ## Holds (not the hunt)
 - Enjin — submitted N/A (capability token)
-- Freshworks — no tenant
-- Box BB — GET IDOR exhausted
-- TikTok — Caido MITM
-- ClickHouse — region-scope break (2026-09-18)
+- Freshworks — same-day, 0 hops, no tenant
+- Box BB — 19d, 3 hops, GET IDOR exhausted
+- TikTok — 2.5d, 0 hops, Caido MITM
+- ClickHouse — 10d, 0 hops, DRAG, region-scope break (2026-09-18)
+
+Live desk must be empty while these sit on `/holds`. `/status` must not print a held program as Desk.
 
 ## Next desk (not locked until `/pick`)
 Recommended: Faraday `h1-faraday_inc`
