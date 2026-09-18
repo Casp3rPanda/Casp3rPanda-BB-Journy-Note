@@ -1,0 +1,6 @@
+*.env
+*.cookie
+*.har
+data/
+tokens/
+*.pem
